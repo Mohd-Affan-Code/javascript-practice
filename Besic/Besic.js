@@ -126,13 +126,27 @@
 
 // 13. Reverse a number using a loop
 
-let num = 12345;
-let reversed = 0;
+// let num = 12345;
+// let reversed = 0;
 
-while (num !== 0) {
-  let digit = num % 10; // last digit nikalo
-  reversed = reversed * 10 + digit; // reversed number me add karo
-  num = Math.floor(num / 10); // last digit hatao
+// while (num !== 0) {
+//   let digit = num % 10; // last digit nikalo
+//   reversed = reversed * 10 + digit; // reversed number me add karo
+//   num = Math.floor(num / 10); // last digit hatao
+// }
+
+// console.log(reversed); // Output: 54321
+
+// 14. Find the sum of digits of a number using for loop in js
+
+let num = 12345; // koi bhi number
+let sum = 0;
+
+// number ko string banate hain taki loop se digits nikal saken
+let str = num.toString();
+
+for (let i = 0; i < str.length; i++) {
+  sum += parseInt(str[i]);
 }
 
-console.log(reversed); // Output: 54321
+console.log("Sum of digits:", sum);
