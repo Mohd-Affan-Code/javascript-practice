@@ -15,13 +15,6 @@ I created this repo to strengthen my JavaScript concepts and improve problem-sol
   - Prime number check
   - Factorial
 
-## 📅 My Practice Plan
-
-| Day | Topic | File |
-|-----|--------|------|
-| Day 1 | Array Sum | arrays/sum.js |
-| Day 2 | Reverse String | strings/reverse.js |
-| Day 3 | Factorial | numbers/factorial.js |
 
 ## 💡 How to Run
 
