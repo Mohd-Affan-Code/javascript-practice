@@ -5,6 +5,11 @@ I created this repo to strengthen my JavaScript concepts and improve problem-sol
 
 ## 🔹 Topics Covered
 
+1. Besic Level question
+2. String Manipulation
+3. Array question
+4. Pattern Printing
+
 ## 💡 How to Run
 
 ```bash
