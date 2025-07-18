@@ -32,5 +32,10 @@
 // for (let i = 1; i <= 100; i++) {
 //   sum += i;
 // }
-
 // console.log(sum);
+
+// 6. Print the squares of numbers from 1 to 10
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i ** 2);
+// }
