@@ -39,3 +39,11 @@
 // for (let i = 1; i <= 10; i++) {
 //   console.log(i ** 2);
 // }
+
+// 7. Print numbers from 10 to 1 (reverse order)
+
+let i = 10;
+while (i >= 1) {
+  console.log(i);
+  i--;
+}
