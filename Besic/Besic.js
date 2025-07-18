@@ -42,8 +42,44 @@
 
 // 7. Print numbers from 10 to 1 (reverse order)
 
-let i = 10;
-while (i >= 1) {
-  console.log(i);
-  i--;
-}
+// let i = 10;
+// while (i >= 1) {
+//   console.log(i);
+//   i--;
+// }
+
+// 8. Print all numbers divisible by 3 between 1 and 50
+
+// for (let i = 1; i <= 50; i++) {
+//   if (i % 3 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// 9. Print the factorial of a number
+
+// let fact = 1;
+// let num = 5;
+// for (let i = 1; i <= num; i++) {
+//   fact *= i;
+// }
+// console.log(fact);
+
+// 10. Print Fibonacci series up to 100
+
+// let a = 0,
+//   b = 1;
+
+// while (a <= 100) {
+//   console.log(a);
+//   let next = a + b;
+//   a = b;
+//   b = next;
+// }
+
+// for (; a <= 100; ) {
+//   console.log(a);
+//   let next = a + b;
+//   a = b;
+//   b = next;
+// }
