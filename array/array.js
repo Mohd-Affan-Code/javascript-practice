@@ -1,14 +1,12 @@
-let arr = [5, 3, 8, 1, 2];
+// 1. Find the largest element in an array
 
-for (let i = 0; i < arr.length; i++) {
-  for (let j = 0; j < arr.length - 1 - i; j++) {
-    if (arr[j] > arr[j + 1]) {
-      // swap
-      let temp = arr[j];
-      arr[j] = arr[j + 1];
-      arr[j + 1] = temp;
-    }
+const numbers = [10, 25, 5, 80, 45];
+let largest = numbers[0];
+
+for (let i = 1; i < numbers.length; i++) {
+  if (numbers[i] > largest) {
+    largest = numbers[i];
   }
 }
 
-console.log("Sorted Array:", arr);
+console.log("Largest number is:", largest);
