@@ -100,3 +100,26 @@
 //     console.log(i);
 //   }
 // }
+
+// print a number 1000 to 337
+
+// for (let i = 1000; i >= 337; i = i - 3) {
+//   console.log(i);
+// }
+
+// write to check if the given number prime or not
+
+// let num = 57;
+// let isPrime = true;
+// for (let i = 2; i < num; i++) {
+//   if (num % i === 0) {
+//     isPrime = false;
+//     break;
+//   }
+// }
+
+// if (isPrime) {
+//   console.log("this is prime number");
+// } else {
+//   console.log("nhi hai");
+// }
