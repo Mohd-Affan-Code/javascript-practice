@@ -23,3 +23,42 @@
 // }
 
 // console.log(smallest);
+
+// 3. Find the sum of all elements in an array
+
+// const numbers = [10, 25, 5, 80, 45];
+
+// let sum = 0;
+
+// for (let i = 0; i < numbers.length; i++) {
+//   sum += numbers[i];
+// }
+
+// console.log(sum);
+
+// 4. Find the average of all elements in an array
+
+// const numbers = [10, 25, 5, 80, 45];
+
+// let sum = 0;
+
+// for (let i = 0; i < numbers.length; i++) {
+//   sum += numbers[i];
+// }
+
+// let average = sum / numbers.length;
+// console.log("average is :", average);
+
+// 5.  Count how many elements in an array are even
+
+// const numbers = [10, 25, 5, 80, 45, 30, 25, 44];
+
+// let even = [];
+
+// for (let i = 0; i < numbers.length; i++) {
+//   if (numbers[i] % 2 === 0) {
+//     even.push(numbers[i]);
+//   }
+// }
+
+// console.log(even);
