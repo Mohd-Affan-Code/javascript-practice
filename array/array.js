@@ -76,3 +76,14 @@
 // }
 // console.log(odd.length);
 // console.log(odd);
+
+// 7.Reverse an array
+
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+let len = numbers.length;
+console.log(len);
+
+for (let i = len - 1; i >= 0; i--) {
+  console.log(numbers[i]);
+}
