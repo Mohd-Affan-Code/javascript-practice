@@ -88,4 +88,16 @@
 //   console.log(numbers[i]);
 // }
 
-// 8 . Check if an array is palindrome
+// 8 .
+
+let arr = [1, 2, 3, 4, 5];
+
+function sumNum(...num) {
+  let total = 0;
+  for (let i = 0; i < num.length; i++) {
+    return (total += num[i]);
+  }
+  return total;
+}
+
+console.log(sumNum(...arr));
