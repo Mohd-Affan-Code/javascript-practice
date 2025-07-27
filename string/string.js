@@ -16,23 +16,23 @@
 
 // 2. Count the number of consonants in a string
 
-function countConsonants(str) {
-  const vowels = "aeiouAEIOU";
-  let count = 0;
+// function countConsonants(str) {
+//   const vowels = "aeiouAEIOU";
+//   let count = 0;
 
-  for (let i = 0; i < str.length; i++) {
-    let char = str[i];
+//   for (let i = 0; i < str.length; i++) {
+//     let char = str[i];
 
-    if ((char >= "A" && char <= "Z") || (char >= "a" && char <= "z")) {
-      if (!vowels.includes(char)) {
-        count++;
-      }
-    }
-  }
+//     if ((char >= "A" && char <= "Z") || (char >= "a" && char <= "z")) {
+//       if (!vowels.includes(char)) {
+//         count++;
+//       }
+//     }
+//   }
 
-  return count;
-}
+//   return count;
+// }
 
-// Example:
-const input = "Hello World";
-console.log("Consonants:", countConsonants(input)); // Output: 7
+// // Example:
+// const input = "Hello World";
+// console.log("Consonants:", countConsonants(input)); // Output: 7
