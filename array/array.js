@@ -88,7 +88,7 @@
 //   console.log(numbers[i]);
 // }
 
-// 8 .
+// 8 . sum  of array elements
 
 let arr = [1, 2, 3, 4, 5];
 

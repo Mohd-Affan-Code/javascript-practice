@@ -33,6 +33,14 @@
 //   return count;
 // }
 
-// // Example:
-// const input = "Hello World";
-// console.log("Consonants:", countConsonants(input)); // Output: 7
+// 3.  Count the number of digits in a string
+
+let str = "abc123x8yz456";
+let digitC = 0;
+
+for (let char of str) {
+  if (char >= "0" && char <= "9") {
+    digitC++;
+  }
+}
+console.log(digitC);
