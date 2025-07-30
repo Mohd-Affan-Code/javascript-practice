@@ -35,12 +35,12 @@
 
 // 3.  Count the number of digits in a string
 
-let str = "abc123x8yz456";
-let digitC = 0;
+// let str = "abc123x8yz456";
+// let digitC = 0;
 
-for (let char of str) {
-  if (char >= "0" && char <= "9") {
-    digitC++;
-  }
-}
-console.log(digitC);
+// for (let char of str) {
+//   if (char >= "0" && char <= "9") {
+//     digitC++;
+//   }
+// }
+// console.log(digitC);

@@ -123,3 +123,17 @@
 // } else {
 //   console.log("nhi hai");
 // }
+
+// 13. Reverse a number using a loop
+
+let num = 12345;
+let reversed = 0;
+
+debugger;
+while (num !== 0) {
+  let digit = num % 10; // last digit nikalo
+  reversed = reversed * 10 + digit; // reversed number me add karo
+  num = Math.floor(num / 10); // last digit hatao
+}
+
+console.log(reversed); // Output: 54321
