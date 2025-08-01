@@ -9,6 +9,7 @@ I created this repo to strengthen my JavaScript concepts and improve problem-sol
 2. String Manipulation
 3. Array question
 4. Pattern Printing
+5. Interview prepration
 
 ## 💡 How to Run
 
