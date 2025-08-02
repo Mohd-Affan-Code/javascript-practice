@@ -104,20 +104,37 @@
 
 // 9. Check if an array is palindrome
 
-function isPalindrome(arr) {
-  let start = 0;
-  let end = arr.length - 1;
+// function isPalindrome(arr) {
+//   let start = 0;
+//   let end = arr.length - 1;
 
-  while (start < end) {
-    if (arr[start] !== arr[end]) {
-      return false;
-    }
-    start++;
-    end--;
+//   while (start < end) {
+//     if (arr[start] !== arr[end]) {
+//       return false;
+//     }
+//     start++;
+//     end--;
+//   }
+//   return true;
+// }
+
+// console.log(isPalindrome([1, 2, 3, 4, 5]));
+// console.log(isPalindrome([1, 2, 3, 2, 1]));
+// console.log(isPalindrome(["a", "b", "b", "a"]));
+
+// 10. Find the second largest element in an array
+
+let arr = [10, 20, 4, 45, 99];
+let first = -Infinity;
+let second = -Infinity;
+
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] > first) {
+    second = first;
+    first = arr[i];
+  } else if (arr[i] > second && arr[i] < first) {
+    second = arr[i];
   }
-  return true;
 }
 
-console.log(isPalindrome([1, 2, 3, 4, 5]));
-console.log(isPalindrome([1, 2, 3, 2, 1]));
-console.log(isPalindrome(["a", "b", "b", "a"]));
+console.log(second); // Output: 45
