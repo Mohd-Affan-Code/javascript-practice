@@ -6,6 +6,18 @@
 //   document.write("<br>");
 // }
 
+// print a number 1 to 4
+
+// let n = 4;
+
+// for (let i = 1; i <= n; i++) {
+//   let row = "";
+//   for (let j = 1; j <= i; j++) {
+//     row += j + " ";
+//   }
+//   console.log(row);
+// }
+
 // /*
 // Output:
 // 1 2 3 4 5 6 7 8 9 10
@@ -83,4 +95,15 @@
 //   console.log(str);
 // }
 
+// 2. print an inverted pyramid pattern
 
+for (let i = 1; i <= 5; i++) {
+  let str = "";
+  for (let j = 1; j <= i; j++) {
+    str += " ";
+    for (let k = 1; k <= j; k++) {
+      str += "*";
+    }
+  }
+  console.log(str);
+}
