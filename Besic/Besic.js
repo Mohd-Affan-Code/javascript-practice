@@ -139,14 +139,22 @@
 
 // 14. Find the sum of digits of a number using for loop in js
 
-let num = 12345; // koi bhi number
-let sum = 0;
+// let num = 12345; // koi bhi number
+// let sum = 0;
 
-// number ko string banate hain taki loop se digits nikal saken
-let str = num.toString();
+// // number ko string banate hain taki loop se digits nikal saken
+// let str = num.toString();
 
-for (let i = 0; i < str.length; i++) {
-  sum += parseInt(str[i]);
+// for (let i = 0; i < str.length; i++) {
+//   sum += parseInt(str[i]);
+// }
+
+// console.log("Sum of digits:", sum);
+
+// Print all numbers between 1 to 100 that are divisible by both 3 and 5
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 3 === 0 && i % 5 === 0) {
+    console.log(i);
+  }
 }
-
-console.log("Sum of digits:", sum);
