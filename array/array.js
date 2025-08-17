@@ -124,17 +124,17 @@
 
 // 10. Find the second largest element in an array
 
-let arr = [10, 20, 4, 45, 99];
-let first = -Infinity;
-let second = -Infinity;
+// let arr = [10, 20, 4, 45, 99];
+// let first = -Infinity;
+// let second = -Infinity;
 
-for (let i = 0; i < arr.length; i++) {
-  if (arr[i] > first) {
-    second = first;
-    first = arr[i];
-  } else if (arr[i] > second && arr[i] < first) {
-    second = arr[i];
-  }
-}
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] > first) {
+//     second = first;
+//     first = arr[i];
+//   } else if (arr[i] > second && arr[i] < first) {
+//     second = arr[i];
+//   }
+// }
 
-console.log(second); // Output: 45
+// console.log(second); // Output: 45

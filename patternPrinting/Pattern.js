@@ -107,3 +107,19 @@
 //   }
 //   console.log(str);
 // }
+
+// Print a hollow inverted right-angled triangle pattern
+
+// function hollowInvertedRightTriangle(n) {
+//   for (let row = n; row >= 1; row--) {
+//     let line = "";
+//     for (let col = 1; col <= row; col++) {
+//       if (row === n || col === 1 || col === row) line += "*";
+//       else line += " ";
+//     }
+//     console.log(line);
+//   }
+// }
+
+// // Example
+// hollowInvertedRightTriangle(5);
