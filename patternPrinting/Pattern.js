@@ -97,13 +97,13 @@
 
 // 2. print an inverted pyramid pattern
 
-for (let i = 1; i <= 5; i++) {
-  let str = "";
-  for (let j = 1; j <= i; j++) {
-    str += " ";
-    for (let k = 1; k <= j; k++) {
-      str += "*";
-    }
-  }
-  console.log(str);
-}
+// for (let i = 1; i <= 5; i++) {
+//   let str = "";
+//   for (let j = 1; j <= i; j++) {
+//     str += " ";
+//     for (let k = 1; k <= j; k++) {
+//       str += "*";
+//     }
+//   }
+//   console.log(str);
+// }
